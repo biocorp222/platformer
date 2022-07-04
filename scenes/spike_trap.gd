@@ -7,5 +7,5 @@ func _ready():
 
 
 func _on_spike_trap_body_entered(body):
-	if body.is_in_group("player"):
+	if body.is_in_group("Player"):
 		print("player dead")

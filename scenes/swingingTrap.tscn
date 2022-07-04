@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://sprites/random/trap_suspended_anim_strip_18.png" type="Texture" id=1]
-[ext_resource path="res://swingingTrap.gd" type="Script" id=2]
+[ext_resource path="res://scenes/swingingTrap.gd" type="Script" id=2]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
