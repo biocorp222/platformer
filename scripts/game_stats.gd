@@ -25,4 +25,15 @@ func get_time():
 	var minutes = current_time/1000/60
 	var seconds = current_time/1000%60
 	var ms = current_time%1000/10
-	print(str(minutes), ":",str(seconds), ":",str(ms))
+	if minutes < 10:
+			minutes = "0"+str(minutes)
+	if seconds < 10:
+			seconds = "0"+str(seconds)
+	if ms < 10:
+		if ms = 0:
+				ms "00"
+		else:
+			mc = "0"+str(ms)
+	var text =  str(minutes)+ ":"+str(seconds)+ ":"+str(ms)
+	return text
+	
