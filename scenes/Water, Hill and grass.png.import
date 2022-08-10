@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/waterfall_anim_strip_4.png-76eca2bc66296090bf610f3d0e168c86.stex"
+path="res://.import/Water, Hill and grass.png-d2ef8829b162513234de7f7b08db4758.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tileset/waterfall_anim_strip_4.png"
-dest_files=[ "res://.import/waterfall_anim_strip_4.png-76eca2bc66296090bf610f3d0e168c86.stex" ]
+source_file="res://scenes/Water, Hill and grass.png"
+dest_files=[ "res://.import/Water, Hill and grass.png-d2ef8829b162513234de7f7b08db4758.stex" ]
 
 [params]
 

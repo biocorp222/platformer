@@ -45,6 +45,7 @@ hframes = 18
 polygon = PoolVector2Array( 0, 15, -7, 15, -12, 19, -9, 22, -9, 24, -12, 28, -9, 30, -9, 33, -12, 35, -9, 38, -9, 41, -12, 44, -6, 48, 7, 48, 12, 44, 9, 41, 9, 38, 12, 36, 9, 33, 9, 30, 12, 28, 9, 24, 9, 22, 12, 20, 7, 15 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+playback_speed = 1.15
 anims/RESET = SubResource( 1 )
 anims/swing = SubResource( 2 )
 

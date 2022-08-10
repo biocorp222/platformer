@@ -30,10 +30,10 @@ func get_time():
 	if seconds < 10:
 			seconds = "0"+str(seconds)
 	if ms < 10:
-		if ms = 0:
-				ms "00"
+		if ms == 0:
+				ms = "00"
 		else:
-			mc = "0"+str(ms)
+			ms = "0"+str(ms)
 	var text =  str(minutes)+ ":"+str(seconds)+ ":"+str(ms)
 	return text
 	

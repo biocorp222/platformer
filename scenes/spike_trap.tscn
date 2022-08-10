@@ -75,6 +75,7 @@ shape = SubResource( 1 )
 disabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+playback_speed = 0.9
 anims/RESET = SubResource( 2 )
 anims/SpikeTrigger = SubResource( 3 )
 
