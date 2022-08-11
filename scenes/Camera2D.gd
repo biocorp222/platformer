@@ -1,10 +1,11 @@
 extends Camera2D
 
 var target = null
-var zoomed = false
+var zoomed = true
 var center = Vector2.ZERO
 
 func _ready():
+	target = owner.get_node("Player")
 	center = get_viewport_rect().size/2
 
 func _process(delta):
@@ -23,4 +24,4 @@ func _process(delta):
 	
 	else:
 		zoom = zoom.move_toward(Vector2(1,1), 0.03)
-		position = position.move_toward(center,80)
+		#position = position.move_toward(center,80)
