@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 3.5625, 7.625 )
+extents = Vector2( 7.48047, 7.625 )
 
 [node name="hehe block" type="StaticBody2D"]
 
