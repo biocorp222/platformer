@@ -1,8 +1,10 @@
 extends Area2D
 
+export (int) var offset = 0
 
 func _ready():
 	$AnimationPlayer.play("SpikeTrigger")
+	$AnimationPlayer.seek(offset)
 	
 
 
