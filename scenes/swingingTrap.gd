@@ -1,8 +1,10 @@
 extends Node2D
 
+export (int) var offset = 0
 
 func _ready():
 	$AnimationPlayer.play("swing")
+	$AnimationPlayer.seek(offset)
 
 
 
