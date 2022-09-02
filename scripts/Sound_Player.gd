@@ -7,6 +7,10 @@ var music_tracks = {
 	"main":"res://MeltdownTheme.wav",
 }
 
+var sound_effects = {
+	"jump":"res://jump.wav",
+	"dead":"res://death.wav",
+}
 
 var music_db = 1
 var sound_db = 1
@@ -24,5 +28,11 @@ func _ready():
 	print(music.stream)
 	print("playing song")
 
-	
+func play_sound_effect(jump):
+	var sound = AudioStreamPlayer.new()
+	sound.stream = load(sound_effects[jump])
+	add_child(sound)
+	sound.play()
+	yield(sound,"finished")
+	sound.queue_free()
 	
