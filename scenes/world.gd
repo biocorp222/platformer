@@ -8,4 +8,4 @@ func _process(delta):
 	if Input.is_action_pressed("reset"):
 		GameStats.reset()
 	$CanvasLayer/Control/Label.text = GameStats.get_time()
-	
+	$CanvasLayer/Control/Label2.text = GameStats.get_deaths()

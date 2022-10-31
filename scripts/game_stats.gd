@@ -2,13 +2,18 @@ extends Node
 
 onready var game_start_time = OS.get_ticks_msec()
 var current_spawn = null
+var total_deaths = 0
 
 func reset():
 	current_spawn = null
 	get_tree().reload_current_scene()
 	game_start_time = OS.get_ticks_msec()
+
+func get_deaths():
+	return str(total_deaths)
 	
 func check_reset():
+	total_deaths +=1
 	if current_spawn == null:
 		reset()
 	else:

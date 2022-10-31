@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mountain2.png-6f0a518b7666eab767b22ccfeb7408af.stex"
+path="res://.import/pine2.png-a65ea5b172a075eac2f571655f840ca2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Background/mountain2.png"
-dest_files=[ "res://.import/mountain2.png-6f0a518b7666eab767b22ccfeb7408af.stex" ]
+source_file="res://sprites/tileset/Background/pine2.png"
+dest_files=[ "res://.import/pine2.png-a65ea5b172a075eac2f571655f840ca2.stex" ]
 
 [params]
 
