@@ -767,7 +767,7 @@ smoothing_enabled = true
 script = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1205, 988 )
+position = Vector2( 71, 1002 )
 
 [node name="Lava" type="Node2D" parent="."]
 
